@@ -26,8 +26,7 @@ class TestForm extends Form
     {
         return [
             'title' => 'required|string|min:2|max:5',
-            'status' => 'required|integer',
-            'test' => 'required|string|foo'
+            'status' => 'required|integer'
         ];
     }
 }
@@ -38,7 +37,6 @@ class TestForm extends Form
   $data = [
             'title' => '123457',
             'status' => 'werwer',
-            'test' => 'fooddd'
         ];
 
         $validator = (new TestForm($data))->make();
