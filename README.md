@@ -9,7 +9,7 @@ composer文件代码：
 使用方法：
 1、先构造一个需要验证的类testForm
 ```php
-class TestForm extends Form
+class TestForm extends Libs\Tools\Form
 {
     public function __construct($data)
     {
