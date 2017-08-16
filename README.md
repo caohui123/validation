@@ -3,13 +3,7 @@
 
 composer文件代码：
 ```php
-{
-  "minimum-stability": "dev",
-  "require": {},
-  "require-dev":{
-    "tools/validation":"dev-master"
-  }
-}
+    "sunny/validation":"dev-master"
 ```
 
 使用方法：
