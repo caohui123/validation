@@ -1,5 +1,5 @@
 {
-    "name": "tools/validation",
+    "name": "sunny/validation",
     "description": "Illuminate Validation form valid",
     "type": "library",
     "license": "MIT",
