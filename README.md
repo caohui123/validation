@@ -114,6 +114,7 @@ class TestForm extends Form
 
      $this->display();
 ```
+html模板如下：  
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -188,10 +189,10 @@ class TestForm extends Form
 </div>
 </body>
 </html>
-
 ```
 运行效果图
  ---
  ![运行效果图](over_run.png "运行效果图")
-更多用户请参考：
+          
+更多用法请参考：  
  [laravel validation](https://docs.golaravel.com/docs/5.0/validation/ "laravel validation")
